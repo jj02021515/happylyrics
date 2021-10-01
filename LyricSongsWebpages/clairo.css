@@ -1,0 +1,38 @@
+body{
+    background-color: #ccffff;
+}
+
+h1{
+    font-family: monospace;
+    text-align: center;
+    
+}
+h4{
+  font-family: monospace;
+  text-align: justify;
+}
+
+.column {
+    float: right;
+    width: 35%;
+    padding: 20px;
+    margin: 20px 10px 10px 20px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.side
+{
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+
